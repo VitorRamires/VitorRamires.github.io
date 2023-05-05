@@ -718,7 +718,7 @@ header{
 nav{
   margin-top:25px;
   width: 100%;
-  background-color: #f5e2b3;
+  background-color: #ffd261;
 }
 
 .menu li{
@@ -726,7 +726,7 @@ nav{
   padding:15px;
   margin:0 auto;
   border-radius: 4px;
-  background-color: #f5e2b3;;
+  background-color: #ffd261;
 }
 
 .menu li:nth-child(2){
