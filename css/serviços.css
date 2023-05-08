@@ -1,0 +1,87 @@
+.serviços{
+  max-width: 1350px;
+  width: 90%;
+  margin:10rem auto 15rem auto;
+}
+
+
+.titulo-serviços{
+  position: relative;
+  font-size:4rem;
+  color:#453200;
+  font-family: Urbanist-bold;
+}
+
+.titulo-serviços::before{
+  content:"";
+  position: absolute;
+  bottom:-15%;
+  left:0;
+  width: 150px;
+  height: 7px;
+  border-radius:15rem;
+  background:#E4A503;
+}
+
+.todos-seviços{
+ position: relative;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 100px;
+ margin-top:7rem;
+}
+
+.serviços-box{
+  position: relative;
+  text-align: center;
+  background: #f9f9f9;
+  height: 330px;
+  display: grid;
+  font-family: Urbanist-bold;
+  border-radius: 5px 5px 5px 5px;
+  border-bottom:5px solid #FFBB0B;
+}
+
+.serviço-texto{
+  max-width: 65ch;
+  place-self:start center;
+}
+
+.serviço-texto h2{
+  margin:2rem 0 2rem 0;
+  font-size: 2rem;
+}
+
+.serviços-box .icone{
+  position: absolute;
+  place-self:end center;
+  padding:15px;
+  background-color:#271C00;
+  border-radius: 50%;
+  bottom:-13%;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+
+.serviços-box img{
+  width:50px;
+  color:#976D00;
+}
+
+.serviços-box p{
+  max-width: 33ch;
+  margin:0 auto;
+  font-size: 1.4em;
+  color:#664900;
+  font-family: Urbanist-light;
+}
+
+.serviços-box h2{
+  color:#976D00;
+}
+
+
+.filter-color{
+  filter: invert(96%) sepia(17%) saturate(3663%) hue-rotate(300deg) brightness(123%) contrast(102%);
+}

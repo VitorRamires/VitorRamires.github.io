@@ -1,0 +1,135 @@
+.carreira{
+  position: relative;
+  background-color: #2D2C2C;
+  padding: 1rem 0 6rem 0;
+}
+
+.carreira::before{
+  content:"";
+  position: absolute;
+  top:-0.5%;
+  left:82.5%;
+  width: 200px;
+  height: 15px;
+  border-radius:15rem;
+  background:#E4A503;
+}
+
+.titulo-carreira{
+  position: relative;
+  font-size:4rem;
+  color:#FFE6A6;
+  font-family: Urbanist-bold;
+}
+
+.titulo-carreira::before{
+  content:"";
+  position: absolute;
+  bottom:-15%;
+  left:0;
+  width: 150px;
+  height: 7px;
+  border-radius:15rem;
+  background:#FFCA43;
+}
+
+.experiencias{
+  width: 90%;
+  max-width: 1350px;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  margin-top:5rem;
+  gap: 35px;
+}
+
+.exp-box{
+  position: relative;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.localização{
+  color:#FFE6A6;
+  place-self: center end;
+  font-size: 1.5rem;
+  max-width: 25ch;
+  font-family: Urbanist-bold;
+  text-align: left;
+}
+
+.small{
+  font-size:1rem;
+  font-family: Urbanist-bold;
+  color:#797979;
+  margin-top:0.3rem;
+}
+
+.experiencia-informação{
+  max-width: 100%;
+  color:white;
+  background:#333333;
+  padding:25px 45px 25px 45px;
+  margin-right:3rem;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.exp-box::before{
+  content:"";
+  position: absolute;
+  top:45%;
+  left:33.5%;
+  transform: rotate(90deg);
+  width: 100px;
+  height: 15px;
+  border-radius:15rem;
+  background:#FFCA43;
+  z-index: 1;
+}
+
+
+
+
+.titulos{
+  color:white;
+  font-size: 1.5rem;
+  font-family: Urbanist-bold;
+}
+
+.função{
+  color:#ffe5a5;
+  font-size:1rem;
+  margin-top:0.2rem;
+}
+
+.info-adicional{
+  max-width: 70ch;
+  font-size:1.2rem;
+  font-family: Urbanist-light;
+  letter-spacing: 0.05rem;
+  margin-top:0.8rem;
+}
+
+.tags{
+  width: 70%;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr;
+  gap: 1rem;
+  margin-top:1.3rem;
+  font-family: Urbanist-semiBold;
+}
+
+.tags-box{
+  padding:15px;
+  color:#453200;
+  background-color:#FFBB0B;
+  font-size:1rem;
+  text-align: center;
+  border-radius: 3px;
+}

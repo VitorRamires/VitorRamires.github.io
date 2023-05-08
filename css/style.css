@@ -1,0 +1,371 @@
+
+
+@import './global.css';
+@import './header.css';
+@import './intro.css';
+@import './carreira.css';
+@import './serviços.css';
+@import './footer.css';
+
+
+
+
+
+
+
+
+
+
+/************************* Animações e feedbacks***********************/
+
+.menu li:hover{
+  border-bottom:2px solid #976D00;
+  cursor: pointer;
+}
+
+.serviços-box:hover{
+  border-bottom: 5px solid #312300;
+  cursor: pointer;
+}
+
+.tags-box:hover{
+  background-color: rgb(255, 202, 67);
+  cursor: pointer;
+}
+
+
+.links-importantes img:hover{
+  filter: brightness(0) saturate(100%) invert(83%) sepia(43%) saturate(2096%) hue-rotate(339deg) brightness(104%) contrast(94%);
+}
+
+
+
+
+/***************************Medias***********************************/
+
+@media (max-width:1250px){
+
+  .serviço-texto{
+    font-size:0.9rem;
+  }
+  
+}
+
+
+@media (max-width:1210px){
+
+.informação-titulo{
+  font-size:3.3rem;
+}
+
+.informação-texto{
+  font-size:0.9rem;
+}
+
+.serviços{
+  width: 90%;
+}
+
+.tags{
+  width: 92%;
+}
+
+.carreira::before {
+  content: "";
+  position: absolute;
+  top: -0.5%;
+  left:50%;
+  transform: translateX(-50%);
+}
+
+.contato-box{
+  width: 85%;
+}
+
+.foto{
+  margin:0 auto;
+}
+
+.foto img{
+  height: 95%;
+}
+
+.foto::before{
+  display: none;
+}
+
+.foto::after{
+  display: none;
+}
+
+.serviços-box p{
+  font-size: 1.4rem;
+}
+
+.todos-seviços{
+  grid-template-columns: 1fr;
+}
+
+.localização{
+  font-size:1.3rem;
+}
+
+.localização::before{
+  right:-54%;
+}
+
+}
+
+
+
+
+
+@media (max-width:990px){
+
+.informação-titulo{
+  font-size:2.7rem;
+}
+  
+.informação-texto{
+  font-size:0.6rem;
+}
+
+.experiencias{
+  gap:65px;
+}
+
+.experiencia-informação{
+  padding: 5%;
+  margin-right: 0;
+}
+
+.experiencia-informação::before{
+  display: none;
+}
+
+.exp-box{
+  grid-template-columns:1fr;
+  gap: 2rem;
+  padding: 1%;
+}
+
+.localização{
+  place-self: start;
+}
+
+.exp-box::before{
+  content:"";
+  position: absolute;
+  top:24%;
+  left:5%;
+  transform: rotate(180deg);
+  width: 100px;
+  height: 15px;
+  border-radius:15rem;
+  background:#FFCA43;
+  z-index: 1;
+}
+
+.contato-box{
+  gap: 30px;
+}
+
+}
+
+
+@media (max-width:860px){
+
+.introdução {
+  grid-template-columns: 3fr 1fr;
+  gap: 2rem;
+}
+
+.informação-titulo {
+  font-size: 2.2rem;
+}
+
+}
+
+
+@media (max-width:850px){
+
+.menu li{
+  font-size: 20px;
+}
+
+.menu .logo{
+  font-size:2rem;
+}
+
+.contato-box {
+  width: 85%;
+  flex-direction: column;
+  align-items: start;
+  padding:0 7% 0 7%;
+}
+
+.links-importantes {
+  display: flex;
+  margin-top:1%;
+  padding: 20px;
+}
+
+.links-importantes img{
+  width: 30px;
+}
+
+.contato-info h1{
+  font-size:2rem;
+}
+
+.contato-info p {
+  font-size: 1rem;
+}
+
+}
+
+
+@media (max-width:670px){
+
+.menu{
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+}
+
+nav{
+  margin-top:25px;
+  width: 100%;
+  background-color: #ffd261;
+}
+
+.menu li{
+  text-align: center;
+  padding:15px;
+  margin:0 auto;
+  border-radius: 4px;
+  background-color: #ffd261;
+}
+
+.menu li:nth-child(2){
+  margin:0;
+}
+
+}
+
+
+
+@media (max-width:620px){
+
+.serviços-box p{
+  font-size:1rem;
+}
+
+.serviços-box{
+  height: 280px;
+}
+
+.tags{
+  grid-template-columns: 1fr 1fr;
+}
+
+.introdução{
+  grid-template-columns: 1fr;
+}
+
+.informação-titulo {
+  font-size: 2.9rem;
+}
+
+.informação-texto {
+  font-size: 0.9rem;
+}
+
+.foto{
+  display: none;
+}
+
+}
+
+
+
+
+@media (max-width:517px){
+
+.serviços-box p{
+  font-size:0.9rem;
+  padding:0 1% 0 1%;
+}
+
+.serviços-box h2{
+  font-size: 1.7rem;
+}
+
+.titulo-serviços, .titulo-carreira{
+  font-size: 2.8rem;
+}
+
+.tags{
+  grid-template-columns: 1fr;
+}
+
+.titulos{
+  font-size:1.2rem;
+}
+
+.info-adicional {
+  font-size: 0.8rem;
+}
+
+.tags{
+  width: 100%;
+}
+
+}
+
+
+@media (max-width:376px){
+
+.informação-titulo {
+    font-size: 2.4rem;
+    max-width: 8.9ch;
+}
+
+.informação-texto {
+  font-size: 0.8rem;
+  max-width: 36ch;
+}
+
+.links-importantes img {
+  width: 23px;
+}
+
+.links-importantes {
+  padding: 15px;
+  gap: 25px;
+}
+
+.contato .decoration{
+  width: 200px;
+}
+
+.contato-info h1 {
+  font-size: 1.5rem;
+}
+
+.menu ul{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu li{
+  width: 100%;
+  padding:15px 0 15px 0;
+}
+
+}
+
+  
+  
