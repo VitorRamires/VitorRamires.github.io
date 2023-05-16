@@ -43,26 +43,6 @@
 
 
 
-.menu li:hover{
-  border-bottom:2px solid #976D00;
-  cursor: pointer;
-}
-
-.serviços-box:hover{
-  border-bottom: 5px solid #312300;
-  cursor: pointer;
-}
-
-.tags-box:hover{
-  background-color: rgb(255, 202, 67);
-  cursor: pointer;
-}
-
-
-.links-importantes img:hover{
-  filter: brightness(0) saturate(100%) invert(83%) sepia(43%) saturate(2096%) hue-rotate(339deg) brightness(104%) contrast(94%);
-}
-
 
 
 
