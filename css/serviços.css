@@ -40,6 +40,7 @@
   font-family: Urbanist-bold;
   border-radius: 5px 5px 5px 5px;
   border-bottom:5px solid #FFBB0B;
+  transition: 0.2s;
 }
 
 .serviço-texto{
